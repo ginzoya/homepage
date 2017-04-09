@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ExperienceItem from './ExperienceItem.js'
 
 class App extends Component {
   render() {
@@ -13,6 +14,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <ExperienceItem start="Jan 2015" end="Mar 2016" jobTitle="Developer">
+          Lorem ipsum I can't remember the rest.
+        </ExperienceItem>
       </div>
     );
   }
