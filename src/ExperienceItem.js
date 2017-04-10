@@ -4,8 +4,9 @@ import './App.css';
 class ExperienceItem extends Component {
   render() {
     return (
-      <div className="ExperienceItem">
+      <div className="ExperienceItem" style={{border:"1px solid black"}}>
         <h3>{this.props.jobTitle}</h3>
+        <h4>{this.props.employer}</h4>
         <ExpItemDuration start={this.props.start} end={this.props.end} />
         <p className="ExpItemContent">
           {this.props.children}
