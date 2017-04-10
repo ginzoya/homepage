@@ -8,7 +8,7 @@ class ExperienceItem extends Component {
         <h3>{this.props.jobTitle}</h3>
         <ExpItemDuration start={this.props.start} end={this.props.end} />
         <p className="ExpItemContent">
-          {this.props.data}
+          {this.props.children}
         </p>
       </div>
     );
@@ -18,7 +18,7 @@ ExperienceItem.propTypes = {
   jobTitle: React.PropTypes.string.isRequired,
   start: React.PropTypes.string.isRequired,
   end: React.PropTypes.string.isRequired,
-	data: React.PropTypes.string.isRequired
+	children: React.PropTypes.string.isRequired
 };
 
 class ExpItemDuration extends Component {
