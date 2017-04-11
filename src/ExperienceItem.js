@@ -17,6 +17,7 @@ class ExperienceItem extends Component {
 }
 ExperienceItem.propTypes = {
   jobTitle: React.PropTypes.string.isRequired,
+  employer: React.PropTypes.string.isRequired,
   start: React.PropTypes.string.isRequired,
   end: React.PropTypes.string.isRequired,
 	children: React.PropTypes.string.isRequired
