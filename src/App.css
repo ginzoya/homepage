@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .App-logo {
@@ -21,4 +23,9 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+.ExperienceItem {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
